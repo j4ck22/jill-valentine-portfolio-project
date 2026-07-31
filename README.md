@@ -14,9 +14,6 @@ This website was developed to present information about Jill Valentine while pra
 - CSS3
 - JavaScript
 
-## 📷 Preview
-
-(Add a screenshot here)
 
 ## 🌐 Live Demo
 
