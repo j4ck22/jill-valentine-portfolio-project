@@ -1,0 +1,12 @@
+.JillImage{
+    padding-top: 30%;
+    width: 450px;
+    height: 750px;
+    transform: translate(-10%, 0%);
+}
+.Jill2Image{
+    padding-top: 30%;
+    width: 250px;
+    height: 650px;
+    transform: translate(5%, 15%);
+}

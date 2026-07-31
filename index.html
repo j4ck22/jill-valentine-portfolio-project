@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jill Valentine</title>
+    <link rel="stylesheet" href="CSS/style.css" >
+    <link rel="stylesheet" href="CSS/mainpage.css"
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/STARS.png" alt="S.T.A.R.S" id="stars">
+        </div>
+        <div>
+            <h1 id="JILL">Jill Valentine</h1>
+        </div>
+        <div class="header-options">
+            <a href="#">Sobre</a>
+            <ul class="menu">
+                <li class="menuitem">
+                    <button id="galeria"><h5>Jogos</h5></button>
+                    <ul class="submenu" id="submenu">
+                        <li ><a>Re1</a></li>
+                        <li ><a>Re3</a></li>
+                        <li ><a>ReRE</a></li>
+                        <li ><a>Re5</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#">Missões</a>
+            <a href="#">Contato</a>
+        </div>
+    </header>
+    <main>
+<aside class="left-aside">
+    <img class="JillImage" src="images/JILL.jpg" alt="Jill_image">
+</aside>
+
+<aside class="right-aside">
+    <img class="Jill2Image" src="images/Jill3.png" alt="Jill2_image">
+</aside>
+    </main>
+<footer>
+<ul>
+    <li>Site criado por Ayrton Oliveira</li>
+    <li>
+        <br>
+        <h4>Contatos</h4>
+        <br>
+        <ol>
+            <li>WhatsApp: (11) 95555-5555</li>
+            <li>E-mail:test@gmail.com</li>
+        </ol>
+    </li>
+</ul>
+</footer>
+
+<script>
+  const botao = document.getElementById("galeria");
+  const submenu = document.getElementById("submenu");
+
+  botao.addEventListener("click", function() {
+    if (submenu.style.display === "none" || submenu.style.display === "") {
+      submenu.style.display = "block";
+    } else {
+      submenu.style.display = "none";
+    }
+  });
+</script>
+</body>
+</html>
